@@ -1,0 +1,10 @@
+## Interface: 50400
+
+## Title: Hyperbole
+## Notes: Questing Enhancements
+## Author: Kelly Crabbé AKA MoonWitch
+## Version: 0.1a
+## X-Website: https://github.com/moonwitch/Hyperbole
+
+core.lua
+about.lua

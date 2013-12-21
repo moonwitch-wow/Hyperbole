@@ -1,7 +1,7 @@
 ## Interface: 50400
 
 ## Title: Hyperbole
-## Notes: Questing Enhancements
+## Notes: Questing Enhancements based on Mythology by p3lim
 ## Author: Kelly Crabbé AKA MoonWitch
 ## Version: 0.1a
 ## X-Website: https://github.com/moonwitch/Hyperbole

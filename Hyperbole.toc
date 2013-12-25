@@ -6,5 +6,5 @@
 ## Version: 0.1a
 ## X-Website: https://github.com/moonwitch/Hyperbole
 
-core.lua
-about.lua
+questwatcher.lua
+questlog.lua

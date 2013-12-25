@@ -58,12 +58,14 @@ end
 -- To Do Add all tags into this as well
 ------------------------------------------------------------------------
 local tags = {
-  Dungeon = "D",
-  Elite = "+",
-  Group = "G",
-  Heroic = "H",
-  PVP = "PvP",
-  Raid = "R",
+  Dungeon = 'D',
+  Elite = '+',
+  Group = 'G',
+  Heroic = 'H',
+  PVP = 'PvP',
+  Raid = 'R',
+  Scenario = 'Sc',
+  Legendary = 'Legend'
 }
 
 local function GetQuestData(self)

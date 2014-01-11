@@ -2,16 +2,21 @@
 -- Config
 ------------------------------------------------------------------------
 local font = [[STANDARD_TEXT_FONT]]
+local fontSize = 8
 local texture = [[Interface\ChatFrame\ChatFrameBackground]]
 local backdrop = {
   bgFile = texture, edgeFile = texture, edgeSize = 1,
 }
 
+-- WATCHFRAME_LINEHEIGHT = fontSize
+WATCHFRAMELINES_XOFFSET = 26
+WATCHFRAME_FADETIME = 0.15
+
 ------------------------------------------------------------------------
 -- Font styling function
 ------------------------------------------------------------------------
 local function SetFontStyle( textString )
-  textString:SetFont(font, 8, 'MONOCHROMEOUTLINE')
+  textString:SetFont(font, fontSize, 'MONOCHROMEOUTLINE')
   textString:SetShadowColor(0, 0, 0, .9)
   textString:SetShadowOffset(1, -1)
 end
@@ -75,7 +80,7 @@ local function GetQuestData(self)
       local _, level, questTag, _, _, _, _, isDaily, _, _, _ = GetQuestLogTitle(questIndex)
       if (isDaily) then
         return 15/255, 215/255, 215/255, level..'•'
-      elseif (questTag) then
+      elseif (questTag) and (level) then
         local color = GetQuestDifficultyColor(level)
         return color.r, color.g, color.b, level..tags[questTag]
       else

@@ -8,3 +8,5 @@
 
 questwatcher.lua
 questlog.lua
+showntell.lua
+about.lua

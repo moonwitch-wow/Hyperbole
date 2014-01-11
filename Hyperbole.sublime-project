@@ -4,14 +4,6 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Applications/World of Warcraft/Interface/AddOns/Mythology"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/kelly/Downloads/nibWatchFrameAdv"
 		}
 	]
 }

@@ -6,6 +6,8 @@
 ## Version: 0.3a
 ## X-Website: https://github.com/moonwitch/Hyperbole
 
+options.lua
+
 questwatcher.lua
 questlog.lua
 showntell.lua
